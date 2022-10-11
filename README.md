@@ -11,7 +11,9 @@
 
 - [新榜](https://newrank.cn/)
 
+- [行行查](https://www.hanghangcha.com/)
 
+- [cnvd](https://www.cnvd.org.cn/flaw/list?flag=true)
 
 ### 环境
 
