@@ -1,9 +1,9 @@
 from typing import Dict
 
 
-def headers_to_dict(headers: str) -> Dict:
+def text_to_dict(headers: str) -> Dict:
     '''
-    转换网页复制的headers, 参考: 李玺
+    转换网页复制的字典值, 参考: 李玺
 
     headers: """
     xxx1: xxx

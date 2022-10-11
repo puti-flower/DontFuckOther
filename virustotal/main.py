@@ -1,15 +1,16 @@
-import execjs
-import requests
 import sys
 
+import execjs
+import requests
+
 sys.path.append(".")
-from tools.convert import headers_to_dict
+from tools.convert import text_to_dict
 
 url = "https://www.virustotal.com/ui/search"
 params = {"limit": 20, "relationships%5Bcomment%5D": "author%2Citem", "query": "hello"}
 
 
-headers = headers_to_dict(
+headers = text_to_dict(
     """
     accept: application/json
     accept-encoding: gzip, deflate, br
